@@ -1,0 +1,100 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    overflow: hidden;
+}
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: 50px;
+    }
+h2{
+    height: 800px;
+    width: 500px;
+    float: left;
+   margin-left: 10px;
+  }
+ 
+h1{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.menu-item a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    color: firebrick;
+}
+:hover{
+    color: bisque;
+    background-color: bisque;
+}
+figure1{
+    float: right;
+    margin-top: 0px;
+    margin-right: 200px;
+    height: 50px;
+width: 50px;}
+
+    table{
+font-size: 25px;
+color: chocolate;
+float: right;
+margin-right: 20px;
+border: 0ch;
+text-decoration: none;
+}
+h3{
+height: 900px;
+width: 600px;
+float: right;
+margin-right: 0px;
+text-decoration: none;  
+} 
+h4{
+float: right;
+margin-right: 100px;
+font-size: 30px;
+color: firebrick;
+}
+ol{
+    list-style-type: none;
+   background-color: coral;
+    margin:0px;
+    padding: 0px;
+   }
+.navbar {
+   overflow: hidden;
+   background-color: coral;
+ }
+.navbar a {
+   float: left;
+   font-size: 22px;
+   color: firebrick;
+   padding: 18px 18px;
+   text-decoration: none;
+ } 
+.subnav {
+   float: left;
+   margin-left: 80px;
+ }
+.subnav .subnavbtn {
+   font-size: 22px;  
+   border: none;
+   outline: none;
+   color: white;
+   padding: 18px 18px;
+   background-color: inherit;
+   font-family: inherit;
+    margin-left: 80px;
+    text-align: center;
+ }
+ .subnavbtn:hover{
+   color: bisque;
+   background-color: bisque;
+ }
